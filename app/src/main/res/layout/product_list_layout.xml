@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/title_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên : "
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/product_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aa"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/title_ten"
+            />
+        <TextView
+            android:id="@+id/title_gia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá : "
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/title_ten"
+            />
+        <TextView
+            android:id="@+id/product_gia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/title_gia"
+            android:layout_below="@+id/title_ten"
+            />
+        <TextView
+            android:id="@+id/title_soluong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng : "
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/title_gia"
+            />
+        <TextView
+            android:id="@+id/product_soluong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/title_soluong"
+            android:layout_below="@+id/title_gia"
+            />
+        <TextView
+            android:id="@+id/title_dvt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đơn vị tính : "
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/title_soluong"
+            />
+        <TextView
+            android:id="@+id/product_dvt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cái"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/title_dvt"
+            android:layout_below="@+id/title_soluong"
+            />
+        <TextView
+            android:id="@+id/title_ghichu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú : "
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/title_dvt"
+            />
+        <TextView
+            android:id="@+id/product_ghichu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="không có..."
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/title_ghichu"
+            android:layout_below="@+id/title_dvt"
+            />
+
+        <ImageView
+            android:id="@+id/edit_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/pedit"
+            android:layout_marginRight="50dp"
+            />
+
+        <ImageView
+            android:id="@+id/delete_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/pdelete"
+            android:layout_marginRight="5dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
